@@ -5,7 +5,7 @@
 # ---------------------------
 # terminal.background
 background = 03191b
-# terminal.background
+# terminal.foreground
 foreground = b2cacd
 
 # Cursor
