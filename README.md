@@ -33,10 +33,10 @@
 mkdir -p ~/.config/ghostty/themes
 
 # Clone the repository
-git clone https://github.com/eastsun5566/ghostty-noctis-themes.git
+git clone https://github.com/eastsun5566/noctis-themes.git
 
 # Copy the theme files
-cp ghostty-noctis-themes/ghostty/* ~/.config/ghostty/themes/
+cp noctis-themes/ghostty/* ~/.config/ghostty/themes/
 ```
 
 Use `ghostty +list-themes` preview the themes
@@ -63,8 +63,11 @@ theme = dark:noctis,light:noctis-lux
 # Create the opencode themes directory
 mkdir -p ~/.config/opencode/themes
 
+# Clone the repository
+git clone https://github.com/eastsun5566/noctis-themes.git
+
 # Copy the theme files
-cp ghostty-noctis-themes/opencode/*.json ~/.config/opencode/themes/
+cp noctis-themes/opencode/*.json ~/.config/opencode/themes/
 ```
 
 ### Usage
