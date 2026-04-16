@@ -1,6 +1,11 @@
-# Ghostty Noctis Themes
+# Noctis Themes
 
-> Noctis color schemes for the [Ghostty terminal emulator](https://github.com/ghostty-org/ghostty), based on [Noctis theme](https://github.com/liviuschera/noctis).
+> Noctis color schemes for multiple tools, based on [Noctis theme](https://github.com/liviuschera/noctis).
+
+## Supported Tools
+
+- [Ghostty](https://github.com/ghostty-org/ghostty)
+- [opencode](https://opencode.ai)
 
 ## Themes
 
@@ -19,7 +24,9 @@
 - **Noctis Lilac**: Light theme with lilac colors
 - **Noctis Hibernus**: Light theme with cool winter colors
 
-## Installation
+## Ghostty
+
+### Installation
 
 ```sh
 # Create the Ghostty themes directory
@@ -28,8 +35,8 @@ mkdir -p ~/.config/ghostty/themes
 # Clone the repository
 git clone https://github.com/eastsun5566/ghostty-noctis-themes.git
 
-# Copy the themes files
-cp ghostty-noctis-themes/themes/* ~/.config/ghostty/themes/
+# Copy the theme files
+cp ghostty-noctis-themes/ghostty/* ~/.config/ghostty/themes/
 ```
 
 Use `ghostty +list-themes` preview the themes
@@ -49,8 +56,6 @@ theme = dark:noctis,light:noctis-lux
 ```
 
 ## opencode
-
-[opencode](https://opencode.ai) theme files are available in the `opencode/` directory.
 
 ### Installation
 
