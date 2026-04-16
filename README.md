@@ -48,6 +48,32 @@ Or
 theme = dark:noctis,light:noctis-lux
 ```
 
+## opencode
+
+[opencode](https://opencode.ai) theme files are available in the `opencode/` directory.
+
+### Installation
+
+```sh
+# Create the opencode themes directory
+mkdir -p ~/.config/opencode/themes
+
+# Copy the theme files
+cp ghostty-noctis-themes/opencode/*.json ~/.config/opencode/themes/
+```
+
+### Usage
+
+Add to your `~/.config/opencode/config.json`:
+
+```json
+{
+  "theme": "noctis"
+}
+```
+
+Available theme names: `noctis`, `noctis-azureus`, `noctis-bordo`, `noctis-minimus`, `noctis-uva`, `noctis-viola`, `noctis-hibernus`, `noctis-lilac`, `noctis-lux`
+
 ## Screenshots
 
 - Noctis
