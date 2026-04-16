@@ -55,7 +55,7 @@ Or
 theme = dark:noctis,light:noctis-lux
 ```
 
-## opencode
+## OpenCode
 
 ### Installation
 
@@ -78,6 +78,8 @@ Add to your `~/.config/opencode/config.json`:
 ```
 
 Available theme names: `noctis`, `noctis-azureus`, `noctis-bordo`, `noctis-minimus`, `noctis-uva`, `noctis-viola`, `noctis-hibernus`, `noctis-lilac`, `noctis-lux`
+
+---
 
 ## Screenshots
 
